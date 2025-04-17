@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .max-w-1160 {
   max-width: 1160px !important;
@@ -79,6 +80,37 @@
   max-width: 1060px !important;
 }
 
+.instant-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  line-height: 128%;
+  text-align: center;
+}
+
+.instant-para {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 162%;
+  text-align: center;
+}
+
+.max-w-566 {
+  max-width: 566px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
 @media (max-width:991.98px) {
   .header-heading {
     max-width: unset;
@@ -108,5 +140,26 @@
 
   .header-para {
     font-size: 20px;
+  }
+
+  .instant-heading {
+    font-size: 29px;
+  }
+
+  .py-100 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .instant-para {
+    font-size: 14px;
+  }
+
+  .pt-30 {
+    padding-top: 0;
+  }
+
+  .pt-60 {
+    padding-top: 20px;
   }
 }
