@@ -74,6 +74,11 @@
   max-width: 585px;
 }
 
+/* ----------------section-2------------------ */
+.max-w-1060 {
+  max-width: 1060px !important;
+}
+
 @media (max-width:991.98px) {
   .header-heading {
     max-width: unset;
