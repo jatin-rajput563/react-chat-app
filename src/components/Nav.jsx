@@ -14,6 +14,7 @@ const Nav = () => {
         };
     }, []);
 
+    
     return (
         <nav className='bg-blue pb-100'>
             <div className="d-flex justify-content-between py-2 container max-w-1160 bg-blue align-items-center">
