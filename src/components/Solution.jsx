@@ -13,7 +13,7 @@ const Solution = () => {
                             <div className='pl-100 pt-42'>
                                 <h2 className='max-w-467 solution-main-heading fw-medium text-center text-sm-start'>Perfect Solution for Small Businesses</h2>
                                 <p className='max-w-465 solution-para opacity-75 m-0 pt-30 text-center text-sm-start'>Pricing plans that fit like a glove.</p>
-                                <div className='mt-60 d-flex flex-wrap gap-30 flex-md-column'>
+                                <div className='mt-60 d-flex flex-wrap gap-30 flex-column flex-lg-row'>
                                     <button className='solution-try-button text-white'>Try it Free</button>
                                     <button className='solution-get-button bg-white'>Get a Demo</button>
                                 </div>

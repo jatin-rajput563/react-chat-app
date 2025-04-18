@@ -396,6 +396,10 @@
   .max-w-816 {
     max-width: 600px;
   }
+
+  .line {
+    max-width: unset;
+  }
 }
 
 @media (max-width:991.98px) {
@@ -519,10 +523,6 @@
 
   .mt-90 {
     margin-top: 30px;
-  }
-
-  .line {
-    max-width: unset;
   }
 
   .mt-40 {
